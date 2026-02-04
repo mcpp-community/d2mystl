@@ -1,6 +1,20 @@
 add_includedirs(".")
 
--- 设置自定义插件目录
-add_plugindirs("d2x/buildtools")
+set_project("D2MySTL")
+set_version("0.1.0")
+set_languages("c++23")
 
-includes("dslings/xmake.lua")
+set_policy("build.c++.modules", true)
+
+includes("src/xmake.lua")
+includes("tests/xmake.lua")
+
+add_requires("gtest")
+
+target("mystl_tests")
+    set_kind("binary")
+    add_files("tests/*.cpp")
+    add_deps("chapter0_modules", "chapter1_modules")
+    add_packages("gtest")
+    add_includedirs(".")
+    set_values("c++.module.outputdir", "$(buildir)/modules")
