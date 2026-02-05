@@ -1,4 +1,7 @@
+module;
+
 #include <gtest/gtest.h>
+
 import mySTL.metaInfo;
 
 // Test the name of meta information

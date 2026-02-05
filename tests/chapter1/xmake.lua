@@ -1,15 +1,7 @@
-target("chapter1_ref_tests")
-    set_kind("binary")
-    set_languages("c++23")
-    add_files("chapter1_tests.cpp", "../test_metaInfo.cpp", "../test_array.cpp", "../../src/chapter0/metaInfo/metaInfo.cppm", "../../src/chapter1/global.cppm", "../../src/chapter1/array/array.cppm")
-    add_deps("chapter0_modules", "chapter1_modules")
-    add_includedirs("..", "../../src")
-    add_packages("gtest")
-
 target("chapter1_tests")
-    set_kind("binary")
-    set_languages("c++23")
-    add_files("chapter1_tests.cpp", "../test_metaInfo.cpp", "../test_array.cpp", "../../mystl/chapter1/metaInfo/metaInfo.cppm", "../../mystl/chapter1/global.cppm", "../../mystl/chapter1/array/array.cppm")
+    add_files("../test_main.cpp")
+    add_files(
+        "../test_metaInfo.cpp",
+        "../test_array.cpp"
+    )
     add_deps("chapter1_modules")
-    add_includedirs("..", "../../mystl")
-    add_packages("gtest")
