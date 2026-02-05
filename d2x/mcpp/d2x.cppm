@@ -10,4 +10,4 @@ export namespace d2x {
     using d2x::wait;
     using d2x::assert_eq;
     using d2x::assert_true;
-};
+}
