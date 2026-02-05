@@ -1,5 +1,3 @@
-module;
-
 #include <gtest/gtest.h>
 
 import mySTL.metaInfo;
