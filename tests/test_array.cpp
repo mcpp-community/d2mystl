@@ -1,5 +1,7 @@
+module;
+
 #include <gtest/gtest.h>
-#include <type_traits>
+
 import mySTL.array;
 
 // Test the size of non-empty array
