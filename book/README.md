@@ -8,7 +8,7 @@
 d2x book
 ```
 
-注: `.d2x.json`中可以通过`lang`配置中问(zh)或英文(en)
+注: `.d2x.json`中可以通过`lang`配置中文(zh)或英文(en)
 
 ## 在线查看
 
