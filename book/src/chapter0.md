@@ -164,9 +164,9 @@ My Standard Template Library
 
 ## Run Unit Tests
 
-You can run unit tests on your code using the following command:
+You can run unit tests on your code using the following command:\
 `xmake f -m release`\
 `xmake run chapter0_tests`\
-You can also run unit tests on the reference code to compare it with your implementation:
+You can also run unit tests on the reference code to compare it with your implementation:\
 `xmake f -m debug`\
-`xmake run chapter0_tests`\
+`xmake run chapter0_tests`
