@@ -1,3 +1,11 @@
+<div align=right>
+
+  🌎 [中文] | [English]
+</div>
+
+[中文]: ../index.html
+[English]: ./index.html
+
 # D2MySTL
 
 > Implement a mini STL library from scratch

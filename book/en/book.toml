@@ -1,12 +1,12 @@
 [book]
 authors = ["mcpp-community"]
-language = "zh"
+language = "en"
 multilingual = false
 src = "src"
 title = "D2MySTL | A Mini STL Tutorial from Scratch"
 
 [build]
-build-dir = "book"
+build-dir = "../book/en"
 
 [output.html]
 git-repository-url = "https://github.com/mcpp-community/d2mystl"
