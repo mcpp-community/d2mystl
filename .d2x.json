@@ -1,6 +1,6 @@
 {
     "buildtools": "xmake d2x-buildtools",
-    "lang": "zh",
+    "lang": "en",
     "llm": {
         "api_key": "",
         "api_url": "https://api.deepseek.com/v1",

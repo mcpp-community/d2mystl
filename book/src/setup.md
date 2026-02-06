@@ -1,15 +1,23 @@
-# Tool installation and environment configuration
+<div align=right>
 
-This chapter introduces how to install the d2x tool, create a template project, and set up the basic environment.
+  🌎 [中文] | [English]
+</div>
 
-## 1. Install d2x tool
+[中文]: ./setup.html
+[English]: ./en/setup.html
 
-### 1.1 Install via the xlings package manager (recommended)
+# 工具安装与环境配置
 
-[xlings](https://xlings.d2learn.org)An open-source package manager that can solve the problem of inconsistent dependencies across different environments
+本章节介绍如果安装d2x工具并创建模板项目, 以及基础的环境配置
+
+## 一、安装d2x工具
+
+### 方法1: 通过xlings包管理器安装 (推荐)
+
+[xlings](https://xlings.d2learn.org)开源包管理器, 可以解决不同环境依赖不一致的问题
 
 <details>
-  <summary>Click to view the installation command for xlings</summary>
+  <summary>点击查看xlings安装命令</summary>
 
 ---
 
@@ -35,21 +43,21 @@ irm https://d2learn.org/xlings-install.ps1.txt | iex
 xlings install d2x
 ```
 
-## 2. Book and Code Inspection
+## 二、书籍和代码检测
 
-Enter the root directory of the current project and run the command for testing.
+进入当前项目的根目录, 运行命令进行测试
 
-**View Document Command**
+**查看文档命令**
 
-After running the following command, the documentation/book of the new project will be opened in the browser
+运行下面命令后会在浏览器打开新项目的文档/书籍
 
 ```
 d2x book
 ```
 
-**Code auto-detection function**
+**代码自动检测功能**
 
-By running the checker command below, you can see that the console enters real-time code detection mode. As you modify the file code, the console will automatically update
+运行下面的checker命令, 可以看到控制台进入实时代码检测模式, 修改文件代码, 控制台会自动更新
 
 ```
 d2x checker

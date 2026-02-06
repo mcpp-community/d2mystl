@@ -50,15 +50,13 @@ jobs:
       #  with:
       #    mdbook-version: '0.4.43'
 
-      - run: mdbook build
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
       - name: Build with mdBook
         run: |
           export PATH=/home/xlings/.xlings_data/bin:$PATH
-          mdbook build
+          ./build.sh
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

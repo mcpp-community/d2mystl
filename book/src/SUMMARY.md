@@ -1,9 +1,9 @@
 # Summary
 
-- [README](./README_en.md)
-- [Tools/Environment Setup](./setup.md)
+- [简介](./README.md)
+- [工具安装与环境配置](./setup.md)
 
-# Main Text
+# 正文
 
-- [Global Module and Meta Information](./chapter0.md)
-- [Array Module Implementation](./chapter1.md)
+- [TODO](./chapter0.md)
+- [TODO](./chapter1.md)
