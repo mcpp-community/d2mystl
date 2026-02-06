@@ -1,9 +1,9 @@
 [book]
-authors = ["sunrisepeak"]
+authors = ["mcpp-community"]
 language = "en"
 multilingual = false
 src = "src"
-title = "D2X Project Template | D2X项目模板"
+title = "D2MySTL | A Mini STL Tutorial from Scratch"
 
 [output.html]
-git-repository-url = "https://github.com/d2learn/d2x-project-template"
+git-repository-url = "https://github.com/mcpp-community/d2mystl"
