@@ -74,6 +74,34 @@ If you find this tutorial a bit challenging to get started with, you can first l
 | [mcpp-start](https://github.com/mcpp-community/mcpp-start) | Modern C++, Go! - `import std` | Beginner-0 |
 | [d2mcpp](https://github.com/mcpp-community/d2mcpp) | Introduction to Modern C++ Core Features | Beginner-1 |
 
+## Contribute
+
+We welcome your participation in the **D2MySTL** project! Whether you find a typo in the documentation, want to improve test cases, or are interested in contributing to the core source code, your efforts will help make this project better and benefit more C++ learners.
+
+### How to Get Involved
+
+You can contribute in many ways:
+
+- Improve Documentation: Optimize explanations, fix errors, or translate content.
+
+- Enhance Testing: Add test cases to cover more edge.
+
+- Develop Source Code: Implement new STL components or optimize existing implementations.
+
+- Report Issues: Submit bugs or suggestions for features you find via GitHub Issues.
+
+### Development Guidelines
+
+Before you start contributing, please make sure to read and follow our project development policy. 
+This policy details code standards, submission processes, and collaboration workflows, which are essential for the healthy growth of the project.
+
+- [Read the Project Development Policy](https://github.com/mcpp-community/d2mystl/issues/15)
+
+### Task Board
+If you're looking for a task that suits your skill level, check out our project task board. Tasks on the board are categorized by difficulty and type—you can start your first contribution here.
+
+- [Browse the Task Board](https://github.com/orgs/mcpp-community/projects/5)
+
 ## Other
 
 - [d2x Tool](https://github.com/d2learn/d2x)

@@ -74,6 +74,34 @@ xmake run chapter0_tests
 | [mcpp-start](https://github.com/mcpp-community/mcpp-start) | 现代C++启动! - `import std` | 入门-0 |
 | [d2mcpp](https://github.com/mcpp-community/d2mcpp) | 现代C++核心特性入门教程 | 入门-1 |
 
+
+## 贡献项目
+
+我们欢迎你参与 **D2MySTL** 项目的建设！无论你是发现文档笔误、希望改进测试用例，还是想深入贡献核心源码，你的每一份努力都将帮助这个项目变得更好，也让更多 C++ 学习者受益。
+
+### 如何参与
+
+你可以通过以下多种方式贡献力量：
+
+- 完善文档：优化说明、修正错误或翻译内容。
+
+- 改进测试：增加测试用例以覆盖更多边界情况。
+
+- 开发源码：实现新的 STL 组件或优化现有实现。
+
+- 反馈问题：通过 GitHub Issues 提交你发现的 Bug 或对功能的建议。
+
+### 开发方针
+
+在开始贡献前，请务必阅读并遵守我们的项目开发方针。该方针详细阐述了代码规范、提交准则和协作流程，是保障项目健康发展的基础。
+
+- [阅读项目开发方针](https://github.com/mcpp-community/d2mystl/issues/15)
+
+### 任务看板
+如果你想寻找适合自己水平的任务，可以查看我们的项目任务看板。看板上的任务按难度和类型进行了分类，你可以从这里开始你的第一个贡献。
+
+- [浏览任务看板](https://github.com/orgs/mcpp-community/projects/5)
+
 ## 其他
 
 - [d2x工具](https://github.com/d2learn/d2x)
